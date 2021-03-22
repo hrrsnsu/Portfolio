@@ -1,0 +1,146 @@
+.App {
+  background-color: #e8e8e8;
+}
+
+.navLinks {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.navLinks:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.navLinks:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 5px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.navLinks:hover:after {
+  color: black;
+  text-decoration: inherit;
+  width: 100%;
+  left: 0;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.jumbotron-name {
+  font-size: 80px;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+}
+
+.jumbotron-text {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-size: 20px;
+}
+
+.projects-header {
+  text-align: center;
+  text-decoration: underline 5px;
+  text-underline-offset: 10px;
+}
+
+.jumbo-about {
+  text-align: center;
+  background-color: #202020;
+  height: 40em inherit;
+  width: 50%;
+  border-radius: 6px;
+  padding-bottom: 20px;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 100px;
+}
+
+#rect {
+  border-radius: 6px 6px 0px 0px;
+  width: 100%;
+  height: 30px;
+  background: #303030;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-flex;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: right;
+}
+
+#expand {
+  background-color: green;
+}
+#min {
+  background-color: yellow;
+}
+#exit {
+  background-color: red;
+}
+
+.about-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+}
+
+.info {
+  color: rgb(255, 238, 0);
+}
+
+.cardDeck {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.card {
+  margin-bottom: 100px;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-custom {
+  background-color: E8E8E8;
+}
+
+.videoCard {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
